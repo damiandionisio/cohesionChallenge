@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cohesion.Core.ServiceRequest\Cohesion.Core.ServiceRequest.csproj" />
+    <ProjectReference Include="..\Cohesion.Core\Cohesion.Core.csproj" />
+    <ProjectReference Include="..\Cohesion.Infrastructure.Db\Cohesion.Infrastructure.Db.csproj" />
+  </ItemGroup>
+
+</Project>
