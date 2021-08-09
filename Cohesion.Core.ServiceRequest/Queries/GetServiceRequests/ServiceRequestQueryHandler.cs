@@ -7,7 +7,7 @@ namespace Cohesion.Core.ServiceRequest.Queries.GetServiceRequests
 {
     public static class ServiceRequestQueryHandler
     {
-        public class Arguments: Auditable
+        public class Arguments
         {
         }
 
@@ -35,7 +35,7 @@ namespace Cohesion.Core.ServiceRequest.Queries.GetServiceRequests
             {
                 var result = reader.Read(queryArguments);
 
-                if(result.ServiceResults.Count() == 0)
+                if (result.ServiceResults.Count() == 0)
                 {
                     throw new KeyNotFoundException();
                 }

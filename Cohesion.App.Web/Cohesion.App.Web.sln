@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cohesion.Infrastructure.Db"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.App", "3.App", "{FB087BAD-FE4C-40B3-85EC-28EBC8F713A2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Test", "4.Test", "{03099CEA-9370-4487-8B55-A0301AF77B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cohesion.Core.ServiceRequest.Test", "..\Cohesion.Core.ServiceRequest.Test\Cohesion.Core.ServiceRequest.Test.csproj", "{930C10B4-BB60-4197-B9F4-097C269D2408}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,10 @@ Global
 		{09A61EE9-7EC7-4903-A88F-E715684D00EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09A61EE9-7EC7-4903-A88F-E715684D00EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09A61EE9-7EC7-4903-A88F-E715684D00EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930C10B4-BB60-4197-B9F4-097C269D2408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930C10B4-BB60-4197-B9F4-097C269D2408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930C10B4-BB60-4197-B9F4-097C269D2408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930C10B4-BB60-4197-B9F4-097C269D2408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +63,7 @@ Global
 		{53069959-2355-460A-9A5C-75AAFBDC645B} = {6CB38198-36A9-478D-853E-33A4EC30BAD3}
 		{3656BFFC-FBEA-4F82-98D0-D5D7E084B8F7} = {BB409D75-7ADA-4E8C-A8ED-AFF903B9559A}
 		{09A61EE9-7EC7-4903-A88F-E715684D00EC} = {BB409D75-7ADA-4E8C-A8ED-AFF903B9559A}
+		{930C10B4-BB60-4197-B9F4-097C269D2408} = {03099CEA-9370-4487-8B55-A0301AF77B43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D283122C-6004-4E55-8F80-3558E3931D89}
